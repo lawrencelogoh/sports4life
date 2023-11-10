@@ -108,6 +108,9 @@ nav{
     justify-content: center;
     align-items: center;
 }
+.logo-image{
+    width: 300px;
+}
 
 blockquote{
     padding-left: 60px;
@@ -229,6 +232,10 @@ footer .copy{
   .topnav{
       display: none;
   }
+  .logo-image{
+    width: 400px;
+}
+
 }
 
 
@@ -252,6 +259,10 @@ footer .copy{
   .topnav{
       display: flex;
   }
+  .logo-image{
+    width: 400px;
+}
+
   
 }
 
