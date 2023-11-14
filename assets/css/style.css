@@ -315,7 +315,9 @@ footer {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: white
+  color: white;
+  text-align: center;
+  padding: 0 10px;
 }
 
 
