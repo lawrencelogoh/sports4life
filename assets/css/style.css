@@ -665,12 +665,14 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: none;
   }
 
   .impact {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: none;
   }
 
   .fimg {
@@ -814,9 +816,10 @@ footer {
   }
 
   .fimg img {
-    /* width: 100%; */
+    width: 70%;
     height: 400px;
     object-fit: cover;
+    margin: 0 auto;
   }
 
   .history {
