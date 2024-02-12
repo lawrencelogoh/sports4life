@@ -237,9 +237,11 @@ h6 {
 
 #reverse-row {
   flex-direction: row-reverse;
-
 }
 
+#reverse-col {
+  flex-direction: row
+}
 
 #partners-section {
   color: black;
@@ -381,6 +383,32 @@ h6 {
   gap: 100px;
 }
 
+#section-images {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.specialImage {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trans {
+  color: black;
+  text-align: center;
+}
+
+.libTitle {
+  text-align: center;
+  color: #fff;
+}
+
+.libTitle h2 {
+  margin: 0;
+}
+
 @media only screen and (max-width: 960px) {
 
   .welcome-section-grid {
@@ -501,6 +529,9 @@ h6 {
     flex-direction: column;
   }
 
+  #reverse-col {
+    flex-direction: column-reverse;
+  }
 
   .thanks-section-content img {
     margin: 0 auto;
