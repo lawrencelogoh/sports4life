@@ -8,29 +8,26 @@
 	<link rel="stylesheet" href="../assets/css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet'>
+	<link rel="stylesheet" href="../assets/css/carousel.css">
 </head>
 
 <body>
-	<nav class="nav">
-		<div class="topnav no-hero">
+	<div class="navbar-container">
+		<nav class="navbar" id="navbar">
+			<ul class="nav-links">
+				<li class="nav-link"><a href="/">HOME</a></li>
+				<li class="nav-link "><a href="/about">ABOUT US</a></li>
+				<li class="nav-link "><a class="active" href="/projects">PROJECTS</a></li>
+				<li class="nav-link "><a href="/focus-areas">FOCUS AREAS</a></li>
+				<li class="nav-link "><a href="/get-involved">GET INVOLVED</a></li>
+				<li class="nav-link "><a href="/contact">CONTACT US</a></li>
+				<li class="nav-link "><a href="/media">MEDIA GALLERY</a></li>
+				<li class="nav-link "><a href="/partnerships">PARTNERSHIPS</a></li>
+			</ul>
+			<img class="navbar-open-btn" src="/assets/menu-4-64.png" alt="menu" />
 
-
-			<!-- PROD LINKS -->
-			<a href="/">HOME</a>
-			<a href="/about">ABOUT US</a>
-			<a class="active" href="/projects">PROJECTS</a>
-			<a href="/focus-areas">FOCUS AREAS</a>
-			<a href="/get-involved">GET INVOLVED</a>
-
-			<a href="/contact">CONTACT US</a>
-			<a href="/media">MEDIA GALLERY</a>
-			<a href="/testimonials">TESTIMONIALS</a>
-			<a href="/partnerships">PARTNERSHIPS</a>
-			<a href="/faq">FAQs</a>
-
-		</div>
-		<span style="cursor:pointer" class="navbar-open-btn">&#9776;</span>
-	</nav>
+		</nav>
+	</div>
 
 	<div class="page-name">
 		<h2>
@@ -38,35 +35,37 @@
 		</h2>
 	</div>
 
-	<section>
-		<div class="projects">
-			<div class="trans">
-				<h1 class="">Transforming Communities Through Action
-			</div>
-			<div class="transImage">
-				<div>
-					<img src="../assets/kid.png" alt="">
+	<section class="section">
+		<div class="section-container">
+			<div class="section-row">
+				<div class="section-content">
+					<h1 class="">Transforming Communities <br /> Through Action</h1>
 				</div>
-				<div class="specialImage">
+				<div class="section-content">
 					<div>
-						<img src="../assets/kids.png" alt="">
+						<img src="../assets/kid.png" alt="" class="kid">
 					</div>
-					<div>
-						<img src="../assets/kid-l.png" alt="">
+					<div class="specialImage">
+						<div>
+							<img src="../assets/kids.png" alt="" class="kid-1">
+						</div>
+						<div>
+							<img src="../assets/kid-l.png" alt="" class="kid-2">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section>
-		<div class="library">
+	<section class="library-section">
+		<div class="library-section-container">
 			<div class="libTitle">
 				<h2 class="">Library and ICT Center Project</h2>
 				<p><i>(Empowering Through Knowledge and Technology)</i></p>
 			</div>
-			<div class="libContent">
-				<div class="obj">
+			<div class="library-section-content">
+				<div class="library-section-content-col">
 					<h2>
 						Objectives
 					</h2>
@@ -81,7 +80,7 @@
 
 					</ul>
 				</div>
-				<div class="exp">
+				<div class="library-section-content-col">
 					<h2>
 						Expected Outcomes
 					</h2>
@@ -97,13 +96,15 @@
 			</div>
 		</div>
 	</section>
-	<section>
-		<div class="pastProjects">
-			<div class="past">
-				<h2>Past Projects: Empowering Through <br /> Sports and Education</h2>
+
+
+	<!-- <section class="past-projects-section">
+		<div class="past-projects-section-container">
+			<div class="past-projects-section-content">
+				<h2>Past Projects: Empowering Through Sports and Education</h2>
 				<p>
 					Over the years, Sports 4 Life Ministries has been dedicated to creating positive change through
-					various <br />
+					various
 					initiatives. Notable among these are our two basketball facilities:</p>
 				<p>
 					1.<b> The First Basketball Court (WIBLE ARENA):</b> Funded by a generous couple who wish to remain
@@ -125,18 +126,18 @@
 					testaments to the transformative power of partnership and dedication to our mission.
 				</p>
 			</div>
-			<div class="pastImg">
-				<img src="/assets/bball_kids.jpg" alt="">
+			<div class="past-projects-section-content">
+				<img src="/assets/bball_kids.jpg" alt="" class="past-images">
 			</div>
 		</div>
-	</section>
+	</section> -->
 
-	<section>
-		<div class="ongoing">
-			<div class="ongoingImage">
+	<!-- <section class="ongoing-section">
+		<div class="ongoing-section-container">
+			<div class="ongoing-section-content">
 				<img src="/assets/lib.png" alt="">
 			</div>
-			<div class="ongoing-txt">
+			<div class="ongoing-section-content">
 				<h2 class=""> Ongoing Initiatives: </h2>
 				<p>
 					In addition to our library and ICT center project, we are continuously engaged in various programs
@@ -153,10 +154,8 @@
 				</p>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
-	<!-- [Engaging Visuals: Include images showcasing the Library and ICT Center Project, basketball facilities, and
-		community engagement in past projects.] -->
 
 	<footer>
 		<div class="footer">
@@ -169,55 +168,24 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- nav overlay -->
-	<div id="nav" class="overlay">
-		<a href="javascript:void(0)" class="navbar-close-btn">&times;</a>
-		<div class="overlay-content">
-
-
-			<!-- PROD LINKS -->
-			<a class="active" href="/">HOME</a>
-			<a href="/about">ABOUT US</a>
-			<a href="/projects">PROJECTS</a>
-			<a href="/focus-areas">FOCUS AREAS</a>
-			<a href="/get-involved">GET INVOLVED</a>
-			<!-- <!-- <a href="/donate">DONATE</a> -->
-			<a href="/contact">CONTACT US</a>
-			<a href="/media">MEDIA GALLERY</a>
-			<a href="/testimonials">TESTIMONIALS</a>
-			<a href="/partnerships">PARTNERSHIPS</a>
-			<a href="/faq">FAQs</a>
-
-
-		</div>
+	<!-- Mobile Menu-->
+	<div class="mobile-menu">
+		<img class="mobile-navbar-open-btn" src="/assets/x-mark-64.png" alt="menu" />
+		<ul class="mobile-nav-links">
+			<li class="mobile-nav-link"><a href="/">HOME</a></li>
+			<li class="mobile-nav-link"><a href="/about">ABOUT US</a></li>
+			<li class="mobile-nav-link"><a href="/projects">PROJECTS</a></li>
+			<li class="mobile-nav-link"><a href="/focus-areas">FOCUS AREAS</a></li>
+			<li class="mobile-nav-link"><a href="/get-involved">GET INVOLVED</a></li>
+			<li class="mobile-nav-link"><a href="/contact">CONTACT US</a></li>
+			<li class="mobile-nav-link"><a href="/media">MEDIA GALLERY</a></li>
+			<li class="mobile-nav-link"><a href="/partnerships">PARTNERSHIPS</a></li>
+		</ul>
 	</div>
-	<!-- end nav overlay -->
-
-
-
 </body>
 
 <script src="../assets/js/main.js">
 </script>
+<script src="../assets/js/carousel.js"></script>
 
 </html>

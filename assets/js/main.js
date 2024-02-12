@@ -1,17 +1,18 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function () {
+  const mobileMenuBtn = document.querySelector('.navbar-open-btn');
+  const mobileMenu = document.querySelector('.mobile-menu');
 
+  mobileMenuBtn.addEventListener('click', function () {
+    if (mobileMenu.style.top === '0px') {
+      mobileMenu.style.top = '-100%';
+    } else {
+      mobileMenu.style.top = '0';
+    }
+  });
 
-  document.querySelector(".navbar-open-btn").addEventListener("click", openNav);
-  document.querySelector(".navbar-close-btn").addEventListener("click", closeNav);
- 
-  // Open and close navbar
-  function openNav() {
-    document.getElementById("nav").style.width = "100%";
-  }
+  const mobileNavbarOpenBtn = document.querySelector('.mobile-navbar-open-btn');
 
-  function closeNav() {
-    document.getElementById("nav").style.width = "0%";
-  }
-
-
+  mobileNavbarOpenBtn.addEventListener('click', function () {
+    mobileMenu.style.top = '-100%';
+  });
 });
