@@ -163,6 +163,7 @@ h6 {
 .section-container {
   max-width: 1280px;
   padding: 0 20px;
+  /* max-height: 100vh; */
 }
 
 .welcome-section-content {
@@ -381,6 +382,17 @@ h6 {
   display: flex;
   flex-direction: column;
   gap: 100px;
+
+}
+
+#section-col {
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+  color: #fff;
+  /* width: 90%; */
 }
 
 #section-images {
@@ -430,6 +442,12 @@ h6 {
   }
 }
 
+@media only screen and (max-width: 320px) {
+  #section-col p {
+    font-size: 13px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .welcome-section-grid {
     grid-template-columns: 1fr;
@@ -443,11 +461,33 @@ h6 {
     flex-direction: column;
     padding: 10px;
   }
+
+  .section-text h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .section-text p {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .carousel-text h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .carousel-text p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+
 }
 
 .footer {
   text-align: center;
-  padding: 100px 0;
+  padding: 50px 0;
   background-image: url(../colorbg.png);
   background-size: cover;
   background-position: bottom;
@@ -489,6 +529,7 @@ h6 {
     height: 100vh;
     align-items: center;
     transition: top 0.3s ease-out;
+    z-index: 1;
   }
 
 
@@ -549,4 +590,54 @@ h6 {
   }
 
 
+}
+
+
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  /* Smooth transition for sliding */
+
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 40%;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+
+
+
+#carousel {
+  padding: 0;
+  height: 100vh;
+  color: #fff;
 }
