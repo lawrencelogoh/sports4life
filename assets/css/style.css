@@ -157,7 +157,7 @@ h6 {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .section-container {
@@ -421,6 +421,66 @@ h6 {
   margin: 0;
 }
 
+.section-caption {
+  align-self: flex-start;
+}
+
+.section-caption-border {
+  align-self: flex-start;
+  border-left: 4px solid #1A5339;
+  vertical-align: middle;
+}
+
+.section-caption h1,
+.section-caption h2,
+.section-caption h3,
+.section-caption p {
+  margin: 0;
+}
+
+
+.section-caption-padding {
+  padding: 20px;
+}
+
+.section-caption-padding h3,
+.section-caption-padding p {
+  margin: 0;
+}
+
+.section-fin-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  align-self: start;
+}
+
+.section-fin-row img {
+  max-width: 100%;
+  width: 80px;
+}
+
+.section-card-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+
+.section-fin-card {
+  background-color: #1A5339;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+
+}
+
+.section-fin-card p {
+  font-size: 16px;
+}
+
 @media only screen and (max-width: 960px) {
 
   .welcome-section-grid {
@@ -482,7 +542,9 @@ h6 {
     text-align: center;
   }
 
-
+  .section-card-row {
+    flex-direction: column;
+  }
 }
 
 .footer {
