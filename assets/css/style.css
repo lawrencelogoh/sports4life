@@ -214,6 +214,127 @@ h6 {
   gap: 20px
 }
 
+.section-column {
+  width: 100%;
+  background-color: #1A5339;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.mail {
+  text-decoration: none;
+  color: #FFD175;
+}
+
+.section-colum {
+  width: 100%;
+}
+
+#pads {
+  padding: 20px;
+}
+
+.adds {
+  margin-bottom: 10px;
+}
+
+input {
+  padding-left: 10px;
+  height: 52px;
+  border-radius: 4px;
+  outline: none;
+  outline-color: #fff;
+  border: 1px solid #1A5339;
+}
+
+::placeholder {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+textarea {
+  /* width: 100%; */
+  height: 154px;
+  padding-left: 10px;
+}
+
+#pads p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.submit {
+  width: 100%;
+  margin-top: 100px;
+}
+
+label {
+  font-weight: 600;
+}
+
+button {
+  width: 100%;
+  align-self: baseline;
+  padding: 15px;
+  background-color: #1A5339;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  /* margin-top: 100px; */
+}
+
+#align-content {
+  align-items: flex-start;
+
+}
+
+.section-column h2 {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.section-contact-caption h3,
+.section-contact-caption p {
+  margin-bottom: 0 !important;
+}
+
+.section-contact-caption h3 {
+  font-size: 1.125rem !important;
+}
+
+.section-contact-caption p {
+  font-size: 1rem;
+}
+
+form {
+  width: 100%;
+
+}
+
+.input-col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contacts {
+  padding: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.contacts li {
+  margin-bottom: 25px;
+}
+
+.contact-line {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  margin: 20px 0;
+}
+
 #section-row {
   align-items: flex-start;
 }
@@ -500,6 +621,11 @@ h6 {
     height: 350px;
     flex-basis: calc(100% - 20px);
   }
+
+  /* .section-column {
+    width: 90%;
+
+  } */
 }
 
 @media only screen and (max-width: 320px) {
@@ -526,6 +652,12 @@ h6 {
     font-size: 20px;
     text-align: center;
   }
+
+  /* 
+  .section-column {
+    width: 90%;
+
+  } */
 
   .section-text p {
     font-size: 13px;
@@ -627,6 +759,11 @@ h6 {
   .section-row {
     flex-direction: column;
   }
+
+  /* .section-column {
+    width: 100%;
+
+  } */
 
   #reverse-row {
     flex-direction: column;
