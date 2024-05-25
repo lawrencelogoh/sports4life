@@ -41,23 +41,55 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  // direction: 'vertical',
   loop: true,
-
-  // If we need pagination
+  autoplay: {
+    delay: 5000,
+  },
   pagination: {
     el: '.swiper-pagination',
   },
 
-  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+});
 
-  // And if we need scrollbar
-  // scrollbar: {
-  //   el: '.swiper-scrollbar',
-  // },
+const swiperContainer = new Swiper('.swiper-container', {
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  // slidesPerView: 3,
+  centeredSlides: true,
+  spaceBetween: 30,
+
+  // navigation: true,
+  virtual: {
+    slides: (function () {
+      const slides = [];
+      for (var i = 0; i < 600; i += 1) {
+        slides.push('Slide ' + (i + 1));
+      }
+      return slides;
+    })(),
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+  },
 });
