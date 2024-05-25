@@ -15,26 +15,26 @@ document.addEventListener('DOMContentLoaded', function () {
   mobileNavbarOpenBtn.addEventListener('click', function () {
     mobileMenu.style.top = '-100%';
   });
+});
 
-  const slides = document.querySelectorAll('.carousel-slide');
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  // direction: 'vertical',
+  loop: true,
 
-  let currentSlide = 0;
-  function showSlide() {
-    slides.forEach((slide) => {
-      slide.style.display = 'none';
-    });
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
 
-    slides[currentSlide].style.display = 'block';
-    currentSlide++;
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 
-    if (currentSlide >= slides.length) {
-      currentSlide = 0;
-    }
-  }
-
-  showSlide();
-
-  setInterval(() => {
-    showSlide();
-  }, 5000);
+  // And if we need scrollbar
+  // scrollbar: {
+  //   el: '.swiper-scrollbar',
+  // },
 });

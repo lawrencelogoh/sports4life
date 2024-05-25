@@ -574,7 +574,7 @@ h6 {
   .navbar-open-btn {
     display: block;
     padding: 20px;
-    width: 40px;
+    width: 30px;
   }
 
   .logo {
@@ -596,7 +596,7 @@ h6 {
 
 
   .mobile-navbar-open-btn {
-    width: 40px;
+    width: 30px;
     padding: 20px;
     position: absolute;
     right: 0;
@@ -656,50 +656,70 @@ h6 {
 
 
 
-.carousel-container {
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 100%;
+
+}
+
+#swiper-slide {
   position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
 }
 
-.carousel-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.swiper-slide img {
   width: 100%;
-  height: 100%;
-  position: absolute;
-  transition: transform 0.5s ease-in-out;
-  /* Smooth transition for sliding */
-
-}
-
-.carousel-slide img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
+  height: 100%;
 }
 
 .carousel-caption {
-  position: absolute;
-  bottom: 40%;
-  width: 80%;
-  left: 50%;
-  transform: translateX(-50%);
   text-align: center;
+  /* padding-top: 20px; */
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-text {
+  vertical-align: middle;
+  width: 85%;
+  margin: 0 auto;
 }
 
 
+.carousel-text h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
 
+.carousel-text p {
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+/* #slide_1 {
+  top: 40%;
+} */
 
 
 #carousel {
   padding: 0;
   height: 100vh;
-  color: #fff;
+  /* color: #fff; */
 }
