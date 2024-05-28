@@ -204,10 +204,7 @@ h6 {
 }
 
 #thanks-section {
-  background-image: url(../colorbg.png);
-  background-size: cover;
-  background-position: bottom;
-  background-attachment: fixed;
+  background-color: #1A5339;
 }
 
 .thanks-section-title {
