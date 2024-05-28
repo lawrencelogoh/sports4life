@@ -55,6 +55,72 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
+const carouselImages = [
+  {
+    image: '/assets/20160804_065444.jpg',
+  },
+  {
+    image: '/assets/20160803_111155.jpg',
+  },
+
+  {
+    image: '/assets/20160804_065520.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+  {
+    image: '/assets/20160804_065439.jpg',
+  },
+];
 const swiperContainer = new Swiper('.swiper-container', {
   loop: true,
   autoplay: {
@@ -72,9 +138,12 @@ const swiperContainer = new Swiper('.swiper-container', {
   virtual: {
     slides: (function () {
       const slides = [];
-      for (var i = 0; i < 600; i += 1) {
-        slides.push('Slide ' + (i + 1));
-      }
+      carouselImages.forEach(({image}) => {
+        console.log(image);
+        slides.push(
+          `<div class="swiper-slide" ><img src="${image}" alt="Image"></div>`
+        );
+      });
       return slides;
     })(),
   },

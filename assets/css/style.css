@@ -187,6 +187,15 @@ h6 {
   gap: 20px;
 }
 
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 25px;
+
+
+}
+
 .welcome-section-image {
   width: 100%;
   height: 400px;
@@ -307,7 +316,7 @@ button {
 }
 
 .section-media-caption {
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   padding: 10px;
 }
 
@@ -319,7 +328,7 @@ button {
 }
 
 .section-media-caption h3 {
-  font-size: 1.125rem !important;
+  font-size: 1.5rem !important;
 
 }
 
@@ -629,6 +638,12 @@ form {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .section-grid {
+
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
   .welcome-section-image {
     border-radius: none !important;
   }
@@ -653,10 +668,16 @@ form {
   #section-col p {
     font-size: 13px;
   }
+
+
 }
 
 @media only screen and (max-width: 600px) {
   .welcome-section-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-grid {
     grid-template-columns: 1fr;
   }
 
@@ -747,6 +768,11 @@ form {
     z-index: 1;
   }
 
+  /* 
+  .section-grid {
+    grid-template-columns: repeat(2, 1fr);
+
+  } */
 
   .mobile-navbar-open-btn {
     width: 30px;
@@ -834,6 +860,7 @@ form {
   /* margin: 20px auto; */
   overflow: hidden;
   position: relative;
+  margin-bottom: 50px;
 }
 
 .swiper-slide {
@@ -858,7 +885,7 @@ form {
 
 }
 
-.swiper-button-prev {
+/* .swiper-button-prev {
   left: 32%;
   color: #1A5339;
 }
@@ -866,7 +893,7 @@ form {
 .swiper-button-next {
   right: 32%;
   color: #1A5339;
-}
+} */
 
 .swiper-slide img {
   width: 100%;
@@ -918,4 +945,36 @@ form {
   padding: 0;
   height: 100vh;
   /* color: #fff; */
+}
+
+#videoG {
+  margin-bottom: 30px;
+  background-color: #1A5339;
+  padding: 60px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+
+.media-vids {
+  padding: 10px;
+}
+
+
+
+video {
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+
+}
+
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #1A5339;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
