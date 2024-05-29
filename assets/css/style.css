@@ -972,3 +972,36 @@ hr {
   margin-bottom: 50px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+.partners-text {
+  text-align: center;
+}
+
+.partners-content {
+  border-left: 2px solid #1A5339;
+  border-spacing: 1rem;
+
+}
+
+.partners-content p {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+
+.partners-content ul {
+
+  list-style: none;
+  padding-left: 10px;
+}
+
+.partners-content ul li {
+  margin-bottom: 5px;
+  line-height: 1.8rem;
+}
+
+#ending {
+  font-size: 1.2rem;
+}

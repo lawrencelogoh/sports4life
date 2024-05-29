@@ -26,14 +26,12 @@ document.addEventListener('DOMContentLoaded', function () {
       const email = document.getElementById('email').value;
       const message = document.getElementById('message').value;
 
-      // Construct the mailto URL
       const mailtoLink = `mailto:selormlogoh96@gmail.com?subject=Conntect with our team&body=
                 Full Name: ${name}%0D%0A
                 Phone Number: ${number}%0D%0A
                 Email: ${email}%0D%0A
                 Message: ${message}`;
 
-      // Open the mail client
       window.location.href = mailtoLink;
 
       document.getElementById('contactForm').reset();
@@ -130,11 +128,10 @@ const swiperContainer = new Swiper('.swiper-container', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  // slidesPerView: 3,
+
   centeredSlides: true,
   spaceBetween: 30,
 
-  // navigation: true,
   virtual: {
     slides: (function () {
       const slides = [];
