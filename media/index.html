@@ -1,184 +1,173 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sports4life</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Libre+Baskerville"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Sports4life</title>
-	<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet'>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-	<link rel="stylesheet" href="../assets/css/style.css">
-</head>
+  <body>
+    <div class="navbar-container">
+      <nav class="navbar" id="navbar">
+        <ul class="nav-links">
+          <li class="nav-link"><a href="/">HOME</a></li>
+          <li class="nav-link"><a href="/about">ABOUT US</a></li>
+          <li class="nav-link"><a href="/projects">PROJECTS</a></li>
+          <li class="nav-link"><a href="/focus-areas">FOCUS AREAS</a></li>
+          <li class="nav-link"><a href="/get-involved">GET INVOLVED</a></li>
+          <li class="nav-link"><a href="/contact">CONTACT US</a></li>
+          <li class="nav-link">
+            <a class="active" href="/media">MEDIA GALLERY</a>
+          </li>
+          <li class="nav-link"><a href="/partnerships">PARTNERSHIPS</a></li>
+        </ul>
+        <img class="navbar-open-btn" src="/assets/menu-4-64.png" alt="menu" />
+      </nav>
+    </div>
 
-<body>
-	<div class="navbar-container">
-		<nav class="navbar" id="navbar">
-			<ul class="nav-links">
-				<li class="nav-link"><a href="/">HOME</a></li>
-				<li class="nav-link "><a href="/about">ABOUT US</a></li>
-				<li class="nav-link "><a href="/projects">PROJECTS</a></li>
-				<li class="nav-link "><a href="/focus-areas">FOCUS AREAS</a></li>
-				<li class="nav-link "><a href="/get-involved">GET INVOLVED</a></li>
-				<li class="nav-link "><a href="/contact">CONTACT US</a></li>
-				<li class="nav-link "><a class="active" href="/media">MEDIA GALLERY</a></li>
-				<li class="nav-link "><a href="/partnerships">PARTNERSHIPS</a></li>
-			</ul>
-			<img class="navbar-open-btn" src="/assets/menu-4-64.png" alt="menu" />
-		</nav>
-	</div>
+    <div class="page-name">
+      <h2>MEDIA GALLERY</h2>
+    </div>
 
-	<div class="page-name">
-		<h2>
-			MEDIA GALLERY
-		</h2>
-	</div>
+    <section class="section">
+      <div class="section-container" id="media">
+        <div class="section-media-caption">
+          <h3>A Visual Journey of Impact</h3>
+          <p>
+            Explore our media gallery to witness the transformative power of our
+            programs, events, and community engagements. <br />
+            Through photos, videos, and press releases, you can get a glimpse of
+            the positive changes we bring to the lives of youth and communities.
+          </p>
+        </div>
 
-	<section class="section">
-		<div class="section-container" id="media">
+        <hr />
 
-			<div class="section-media-caption">
-				<h3>A Visual Journey of Impact</h3>
-				<p>Explore our media gallery to witness the transformative power of our programs, events, and
-					community
-					engagements. <br> Through photos, videos, and press releases, you can get a glimpse of the positive
-					changes
-					we bring to the lives of youth and communities.</p>
+        <div class="section-media-caption" id="videoG">
+          <h3>Photo Gallery</h3>
 
-			</div>
+          <p>
+            View captivating images that capture the essence of our mission.
+            <br />
+            From sports events to educational programs, each photo tells a story
+            of empowerment and growth.
+          </p>
+        </div>
 
-			<hr />
+        <!-- Slider main container -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper"></div>
+          <!-- If we need pagination -->
+          <!-- <div class="swiper-pagination"></div> -->
 
-			<div class="section-media-caption" id="videoG">
-				<h3>Photo Gallery</h3>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="section-media-caption" id="videoG">
+          <h3>Video Gallery</h3>
 
-				<p>View captivating images that capture the essence of our mission. <br> From sports events to
-					educational
-					programs, each photo tells a story of empowerment and growth.</p>
+          <p>
+            Watch inspiring videos that showcase our initiatives in action.
+            <br />See how youth are empowered through sports, education, and
+            faith-based programs.
+          </p>
+        </div>
+        <div class="section-grid">
+          <div class="media-vids">
+            <video height="400" controls>
+              <source src="/assets/20131230_112133.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="media-vids">
+            <video height="400" controls>
+              <source src="/assets/SAM_1126.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="media-vids">
+            <video height="400" controls>
+              <source src="/assets/SAM_1171.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <!-- <div class="media-vids"> -->
+          <!--   <video height="400" controls> -->
+          <!--     <source src="movie.mp4" type="video/mp4" /> -->
+          <!--   </video> -->
+          <!-- </div> -->
+          <!-- <div class="media-vids"> -->
+          <!--   <video height="400" controls> -->
+          <!--     <source src="movie.mp4" type="video/mp4" /> -->
+          <!--   </video> -->
+          <!-- </div> -->
+          <!-- <div class="media-vids"> -->
+          <!--   <video height="400" controls> -->
+          <!--     <source src="movie.mp4" type="video/mp4" /> -->
+          <!--   </video> -->
+          <!-- </div> -->
+        </div>
 
-			</div>
+        <hr />
+        <div class="section-media-caption" id="videoG">
+          <h3>Press Releases</h3>
 
-			<!-- Slider main container -->
-			<div class="swiper-container">
-				<!-- Additional required wrapper -->
-				<div class="swiper-wrapper">
+          <p>
+            Stay updated with our latest news and announcements through press
+            releases and media coverage.
+            <br />
+            Learn about our achievements, partnerships, and upcoming events
+          </p>
+          <p>
+            At Sports 4 Life Ministries, we believe in sharing our journey with
+            the world. <br />
+            Our media gallery is a window into the impact we create, thanks to
+            your support and dedication.
+          </p>
+        </div>
+      </div>
+    </section>
 
-				</div>
-				<!-- If we need pagination -->
-				<!-- <div class="swiper-pagination"></div> -->
+    <footer class="footer">
+      <div>Copyright 2024 Sports 4 Life | All Rights Reserved</div>
+    </footer>
 
-				<!-- If we need navigation buttons -->
-				<div class="swiper-button-prev"></div>
-				<div class="swiper-button-next"></div>
-			</div>
-			<div class="section-media-caption" id="videoG">
-				<h3>Video Gallery</h3>
+    <!-- Mobile Menu-->
+    <div class="mobile-menu">
+      <img
+        class="mobile-navbar-open-btn"
+        src="/assets/x-mark-64.png"
+        alt="menu"
+      />
+      <ul class="mobile-nav-links">
+        <li class="mobile-nav-link"><a href="/">HOME</a></li>
+        <li class="mobile-nav-link"><a href="/about">ABOUT US</a></li>
+        <li class="mobile-nav-link"><a href="/projects">PROJECTS</a></li>
+        <li class="mobile-nav-link"><a href="/focus-areas">FOCUS AREAS</a></li>
+        <li class="mobile-nav-link">
+          <a href="/get-involved">GET INVOLVED</a>
+        </li>
+        <li class="mobile-nav-link"><a href="/contact">CONTACT US</a></li>
+        <li class="mobile-nav-link"><a href="/media">MEDIA GALLERY</a></li>
+        <li class="mobile-nav-link">
+          <a href="/partnerships">PARTNERSHIPS</a>
+        </li>
+      </ul>
+    </div>
 
-				<p>Watch inspiring videos that showcase our initiatives in action. <br>See how youth are empowered
-					through
-					sports, education, and faith-based programs.
-				</p>
-
-
-			</div>
-			<div class="section-grid">
-				<div class="media-vids">
-
-					<video height="400" controls>
-						<source src="movie.mp4" type="video/mp4">
-
-
-					</video>
-				</div>
-				<div class="media-vids">
-
-					<video height="400" controls>
-						<source src="movie.mp4" type="video/mp4">
-
-
-					</video>
-				</div>
-				<div class="media-vids">
-
-					<video height="400" controls>
-						<source src="movie.mp4" type="video/mp4">
-
-
-					</video>
-				</div>
-				<div class="media-vids">
-
-					<video height="400" controls>
-						<source src="movie.mp4" type="video/mp4">
-
-
-					</video>
-				</div>
-				<div class="media-vids">
-
-					<video height="400" controls>
-						<source src="movie.mp4" type="video/mp4">
-
-
-					</video>
-				</div>
-				<div class="media-vids">
-
-					<video height="400" controls>
-						<source src="movie.mp4" type="video/mp4">
-
-
-					</video>
-				</div>
-
-			</div>
-
-			<hr />
-			<div class="section-media-caption" id="videoG">
-				<h3>Press Releases</h3>
-
-				<p>Stay updated with our latest news and announcements through press releases and media coverage.
-					<br>
-					Learn
-					about our achievements, partnerships, and upcoming events
-				</p>
-				<p>
-					At Sports 4 Life Ministries, we believe in sharing our journey with the world. <br> Our media
-					gallery
-					is
-					a
-					window into the impact we create, thanks to your support and dedication. </p>
-			</div>
-		</div>
-
-
-	</section>
-
-	<footer class="footer">
-		<div>
-			Copyright 2024 Sports 4 Life | All Rights Reserved
-		</div>
-	</footer>
-
-	<!-- Mobile Menu-->
-	<div class="mobile-menu">
-		<img class="mobile-navbar-open-btn" src="/assets/x-mark-64.png" alt="menu" />
-		<ul class="mobile-nav-links">
-			<li class="mobile-nav-link"><a href="/">HOME</a></li>
-			<li class="mobile-nav-link"><a href="/about">ABOUT US</a></li>
-			<li class="mobile-nav-link"><a href="/projects">PROJECTS</a></li>
-			<li class="mobile-nav-link"><a href="/focus-areas">FOCUS AREAS</a></li>
-			<li class="mobile-nav-link"><a href="/get-involved">GET INVOLVED</a></li>
-			<li class="mobile-nav-link"><a href="/contact">CONTACT US</a></li>
-			<li class="mobile-nav-link"><a href="/media">MEDIA GALLERY</a></li>
-			<li class="mobile-nav-link"><a href="/partnerships">PARTNERSHIPS</a></li>
-		</ul>
-	</div>
-
-	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-	<script src="../assets/js/main.js">
-	</script>
-
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
 </html>
