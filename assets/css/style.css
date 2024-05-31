@@ -13,8 +13,8 @@ CSS RESET *,
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background: #FFFDF9;
-  font-family: 'Inter';
+  background: #fffdf9;
+  font-family: "Inter";
 }
 
 img,
@@ -33,8 +33,6 @@ select {
   font: inherit;
 }
 
-
-
 p,
 h1,
 h2,
@@ -50,8 +48,6 @@ h6 {
   isolation: isolate;
 }
 
-
-
 /* GENERAL */
 
 .hero {
@@ -61,7 +57,7 @@ h6 {
   width: 100%;
   height: 100vh;
   background-image: url(../bball_1.jpg);
-  background-color: #1A5339;
+  background-color: #1a5339;
   background-blend-mode: multiply;
   background-size: cover;
   background-position: bottom;
@@ -69,7 +65,6 @@ h6 {
   justify-content: center;
   padding: 80px 0;
 }
-
 
 .navbar {
   display: flex;
@@ -90,7 +85,7 @@ h6 {
 }
 
 .navbar-container {
-  border-bottom: 1px solid #FFD175;
+  border-bottom: 1px solid #ffd175;
   background-color: #004d33;
 }
 
@@ -102,7 +97,6 @@ h6 {
   width: 100%;
   justify-content: space-around;
 }
-
 
 .nav-link {
   padding: 20px 0px;
@@ -117,12 +111,12 @@ h6 {
 }
 
 .nav-link a:hover {
-  color: #FFD175;
+  color: #ffd175;
 }
 
 .nav-link a.active {
-  color: #FFD175;
-  border-top: 3px solid #FFD175;
+  color: #ffd175;
+  border-top: 3px solid #ffd175;
 }
 
 .navbar-open-btn {
@@ -140,7 +134,6 @@ h6 {
   font-size: 3rem;
 }
 
-
 .logo {
   width: 450px;
   margin: 50px auto;
@@ -150,7 +143,6 @@ h6 {
   display: none;
   top: 0;
 }
-
 
 .section {
   display: flex;
@@ -163,7 +155,6 @@ h6 {
 .section-container {
   max-width: 1280px;
   padding: 0 20px;
-
 }
 
 .welcome-section-content {
@@ -178,7 +169,6 @@ h6 {
 .section-container p {
   font-size: 1.3rem;
   margin-bottom: 50px;
-
 }
 
 .welcome-section-grid {
@@ -192,8 +182,6 @@ h6 {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-bottom: 25px;
-
-
 }
 
 .welcome-section-image {
@@ -204,7 +192,7 @@ h6 {
 }
 
 #thanks-section {
-  background-color: #1A5339;
+  background-color: #1a5339;
 }
 
 .thanks-section-title {
@@ -217,19 +205,20 @@ h6 {
 .section-row {
   display: flex;
   align-items: center;
-  gap: 20px
+  justify-content: center;
+  gap: 20px;
 }
 
 .section-column {
   width: 100%;
-  background-color: #1A5339;
+  background-color: #1a5339;
   color: #fff;
   border-radius: 8px;
 }
 
 .mail {
   text-decoration: none;
-  color: #FFD175;
+  color: #ffd175;
 }
 
 .section-colum {
@@ -250,7 +239,7 @@ input {
   border-radius: 4px;
   outline: none;
   outline-color: #fff;
-  border: 1px solid #1A5339;
+  border: 1px solid #1a5339;
 }
 
 ::placeholder {
@@ -282,7 +271,7 @@ button {
   width: 100%;
   align-self: baseline;
   padding: 15px;
-  background-color: #1A5339;
+  background-color: #1a5339;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -291,7 +280,6 @@ button {
 
 #align-content {
   align-items: flex-start;
-
 }
 
 .section-column h2 {
@@ -313,7 +301,6 @@ button {
 }
 
 .section-media-caption {
-
   padding: 10px;
 }
 
@@ -321,12 +308,10 @@ button {
 .section-media-caption p {
   margin-bottom: 0 !important;
   text-align: center;
-
 }
 
 .section-media-caption h3 {
   font-size: 1.5rem !important;
-
 }
 
 .section-media-caption p {
@@ -335,7 +320,6 @@ button {
 
 form {
   width: 100%;
-
 }
 
 .input-col {
@@ -379,7 +363,6 @@ form {
   border-radius: 10px;
 }
 
-
 #text-color {
   color: #000;
 }
@@ -389,7 +372,7 @@ form {
 }
 
 #reverse-col {
-  flex-direction: row
+  flex-direction: row;
 }
 
 #partners-section {
@@ -408,7 +391,7 @@ form {
 .section-card {
   background: #fff;
   padding: 20px;
-  width: 95%;
+  width: 50%;
   border-radius: 10px;
 }
 
@@ -435,8 +418,6 @@ form {
   margin-top: 100px;
 }
 
-
-
 .page-name {
   text-align: center;
   text-transform: uppercase;
@@ -445,28 +426,24 @@ form {
   background-color: #004d33;
 }
 
-
-
 #huddle img {
   width: 90%;
   height: 500px;
   object-fit: cover;
 }
 
-
 #empower {
-  color: black
+  color: black;
 }
 
 #empower h1 {
   font-size: 2.5rem;
 }
 
-
 #pillars {
   min-height: 100vh;
   background-image: url(../tillebg.png);
-  background-color: #1A5339;
+  background-color: #1a5339;
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -482,7 +459,6 @@ form {
   margin: 0;
 }
 
-
 .section-content-color {
   display: flex;
   gap: 20px;
@@ -495,21 +471,19 @@ form {
   height: 100px;
 }
 
-
 .section-yellow {
-  border-left: 6px solid #FFD175;
+  border-left: 6px solid #ffd175;
   height: 100px;
 }
 
 .section-red {
-  border-left: 6px solid #FF0F00;
+  border-left: 6px solid #ff0f00;
   height: 100px;
 }
 
 .section-color-title h3 {
   margin: 0;
 }
-
 
 #evo {
   color: black;
@@ -518,7 +492,6 @@ form {
 #evo h2 {
   margin-bottom: 20px;
 }
-
 
 #evo ul {
   padding: 0;
@@ -530,7 +503,6 @@ form {
   display: flex;
   flex-direction: column;
   gap: 100px;
-
 }
 
 #section-col {
@@ -540,7 +512,6 @@ form {
   height: 100vh;
   margin: 0 auto;
   color: #fff;
-
 }
 
 #section-images {
@@ -575,7 +546,7 @@ form {
 
 .section-caption-border {
   align-self: flex-start;
-  border-left: 4px solid #1A5339;
+  border-left: 4px solid #1a5339;
   vertical-align: middle;
 }
 
@@ -585,7 +556,6 @@ form {
 .section-caption p {
   margin: 0;
 }
-
 
 .section-caption-padding {
   padding: 20px;
@@ -616,13 +586,11 @@ form {
   margin-top: 20px;
 }
 
-
 .section-fin-card {
-  background-color: #1A5339;
+  background-color: #1a5339;
   padding: 20px;
   border-radius: 8px;
   color: #fff;
-
 }
 
 .section-fin-card p {
@@ -630,15 +598,12 @@ form {
 }
 
 @media only screen and (max-width: 960px) {
-
   .welcome-section-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .section-grid {
-
     grid-template-columns: repeat(2, 1fr);
-
   }
 
   .welcome-section-image {
@@ -647,23 +612,18 @@ form {
 
   #section-card {
     flex-direction: row;
-
   }
 
   .section-card {
     height: 350px;
     flex-basis: calc(100% - 20px);
   }
-
-
 }
 
 @media only screen and (max-width: 320px) {
   #section-col p {
     font-size: 13px;
   }
-
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -689,8 +649,6 @@ form {
     text-align: center;
   }
 
-
-
   .section-text p {
     font-size: 13px;
     text-align: center;
@@ -705,7 +663,9 @@ form {
     font-size: 12px;
     text-align: center;
   }
-
+  .section-card {
+    width: 95%;
+  }
   .section-card-row {
     flex-direction: column;
   }
@@ -714,23 +674,20 @@ form {
 .footer {
   text-align: center;
   padding: 50px 0;
-  background-color: #1A5339;
+  background-color: #1a5339;
   color: #fff;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-
 @media only screen and (max-width: 1024px) {
   .navbar {
     justify-content: flex-end;
-
   }
 
   .nav-links {
     display: none;
   }
-
 
   .navbar-open-btn {
     display: block;
@@ -747,7 +704,7 @@ form {
     display: block;
     position: fixed;
     top: -100%;
-    background: linear-gradient(90deg, #1A5339, #1A5339, #004d33);
+    background: linear-gradient(90deg, #1a5339, #1a5339, #004d33);
     width: 100%;
     height: 100vh;
     align-items: center;
@@ -755,15 +712,12 @@ form {
     z-index: 1;
   }
 
-
-
   .mobile-navbar-open-btn {
     width: 30px;
     padding: 20px;
     position: absolute;
     right: 0;
   }
-
 
   .mobile-nav-links {
     display: flex;
@@ -790,7 +744,6 @@ form {
     flex-direction: column;
   }
 
-
   #reverse-row {
     flex-direction: column;
   }
@@ -805,7 +758,6 @@ form {
 
   #huddle img {
     width: 100%;
-
   }
 
   .section-green,
@@ -818,15 +770,11 @@ form {
     max-width: 100% !important;
     padding: 0;
   }
-
 }
-
 
 #media {
-
   padding: 0;
 }
-
 
 .swiper {
   width: 100%;
@@ -843,7 +791,6 @@ form {
 }
 
 .swiper-slide {
-
   text-align: center;
   font-size: 18px;
   background: #004d33;
@@ -852,8 +799,6 @@ form {
   align-items: center;
 }
 
-
-
 #swiper-slide {
   position: relative;
 }
@@ -861,10 +806,7 @@ form {
 .swiper-button-prev,
 .swiper-button-next {
   top: 50%;
-
 }
-
-
 
 .swiper-slide img {
   width: 100%;
@@ -896,7 +838,6 @@ form {
   margin: 0 auto;
 }
 
-
 .carousel-text h3 {
   font-size: 1.5rem;
   text-align: center;
@@ -907,56 +848,45 @@ form {
   text-align: center;
 }
 
-
-
-
 #carousel {
   padding: 0;
   height: 100vh;
-
 }
 
 #videoG {
   margin-bottom: 30px;
-  background-color: #1A5339;
+  background-color: #1a5339;
   padding: 60px;
   border-radius: 10px;
   color: #fff;
 }
 
-
 .media-vids {
   padding: 10px;
 }
-
-
 
 video {
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
-
 }
-
 
 hr {
   border: none;
   height: 2px;
-  background-color: #1A5339;
+  background-color: #1a5339;
   margin-top: 50px;
   margin-bottom: 50px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 
 .partners-text {
   text-align: center;
 }
 
 .partners-content {
-  border-left: 2px solid #1A5339;
+  border-left: 2px solid #1a5339;
   border-spacing: 1rem;
-
 }
 
 .partners-content p {
@@ -967,7 +897,6 @@ hr {
 }
 
 .partners-content ul {
-
   list-style: none;
   padding-left: 10px;
 }
